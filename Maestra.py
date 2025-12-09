@@ -1,5 +1,6 @@
-def hola_mundo():
-    print("Hola mundo")
+class personas:
+    def hola_mundo():
+     print("Hola mundo")
 
-hola_mundo()
+personas.hola_mundo()
 
