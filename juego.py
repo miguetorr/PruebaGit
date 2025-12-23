@@ -9,13 +9,16 @@ class Personaje:
         daño = self.ataque - objetivo.defensa
         return max(0, daño)
 
-    def Recibir_Daño (self, daño):
+    def recibir_daño (self, daño):
         self.vida -= daño
         if self.vida < 0:
             vida = 'Esta muerto'
         else:
             vida = self.vida
         return vida
+    
+    def get_vida(self):
+        return self.vida        
 
 
 
