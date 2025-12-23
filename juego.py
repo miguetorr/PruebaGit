@@ -16,6 +16,18 @@ class Personaje:
         else:
             vida = self.vida
         return vida
+    
+    def Get_Vida(self):
+        return self.vida
+    
+    def Get_Nombre(self):
+        return self.nombre
+    
+    def Get_Ataque(self):
+        return self.ataque
+    
+    def Get_Defensa(self):
+        return self.defensa
 
 
 
