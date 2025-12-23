@@ -9,3 +9,4 @@ daño_generado= pj1.atacar(pj2)
 vida_actualizada = pj2.recibir_daño(daño_generado)
 
 print (f'El jugador {pj2.nombre} ha recibido {daño_generado} de daño y el jugador tiene {vida_actualizada} de vidad')
+print (f'El jugador {pj2.nombre} tiene {pj2.get_vida()} de vidad')
